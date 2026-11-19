@@ -1,10 +1,10 @@
-# Insurance Portfolio Analysis & Claims Dashboard
+# Insurance Portfolio Analysis & Claims Dashboard | Power BI
 
 ## Project Overview
 
 This project presents an interactive **Insurance Portfolio Analysis Dashboard** developed using Microsoft Power BI for PRISM INSURANCE PVT. LTD.
 
-The dashboard provides insights into insurance policies, customer demographics, premium collections, coverage amounts, and claim performance. It helps users explore key insurance metrics through interactive visualizations and detailed policy-level reporting.
+The dashboard provides insights into insurance policies, customer demographics, premium collections, coverage amounts, and claim performance through interactive visualizations and detailed policy-level reporting.
 
 ## Business Objectives
 
@@ -19,12 +19,13 @@ The dashboard provides insights into insurance policies, customer demographics, 
 
 The project uses an insurance dataset containing policy, customer, premium, coverage, and claim-related information.
 
-**Dataset details:**
-- Records after duplicate removal: 10,000
-- Columns: 13
-- Unique Policy Numbers: 10,000
-- Unique Customer IDs: 10,000
-- Unique Claim Numbers: 10,000
+| Dataset Attribute | Details |
+|---|---:|
+| Total Records | 10,000 |
+| Total Columns | 13 |
+| Unique Policy Numbers | 10,000 |
+| Unique Customer IDs | 10,000 |
+| Unique Claim Numbers | 10,000 |
 
 ## Key Performance Indicators
 
@@ -35,12 +36,14 @@ The project uses an insurance dataset containing policy, customer, premium, cove
 | Total Claim Amount | 16,904,295.27 |
 | Total Policies | 10,000 |
 
-## Dashboard Pages
+## Dashboard Preview
 
 ### 1. Insurance Overview
 
-Provides a consolidated view of insurance portfolio performance, including:
-- Premium, coverage and claim KPIs.
+The overview page provides a consolidated view of insurance portfolio performance.
+
+**Key insights and visualizations:**
+- Total premium, coverage and claim amount KPIs.
 - Customer gender distribution.
 - Claim status analysis.
 - Premium analysis by policy type.
@@ -48,19 +51,33 @@ Provides a consolidated view of insurance portfolio performance, including:
 - Active vs. inactive policy distribution.
 - Coverage analysis by policy type and claim status.
 
+![Insurance Overview Dashboard](insurance-overview.png)
+
 ### 2. Policy Details
 
-Provides a detailed policy-level view containing customer information, policy dates, premium amounts, coverage amounts, policy types and claim status.
+The policy details page provides a detailed view of individual insurance records, including:
 
-## Data Preparation
+- Policy Number
+- Customer ID
+- Age and Gender
+- Premium Amount
+- Coverage Amount
+- Policy Type
+- Policy Start and End Dates
+- Claim Status
 
-The dataset was reviewed and cleaned using Power Query.
+![Policy Details Dashboard](policy-details.png)
 
-Key preparation steps included:
+## Data Preparation & Cleaning
+
+Data preparation was performed using Power Query.
+
+Key steps included:
 - Identifying and removing exact duplicate records.
 - Validating financial KPI totals.
 - Reviewing missing values in claim-related fields.
 - Verifying record counts and policy identifiers.
+- Preparing the dataset for interactive analysis.
 
 ## Tools & Technologies
 
@@ -72,20 +89,24 @@ Key preparation steps included:
 - Data Visualization
 - Interactive Dashboard Development
 
-## Project Files
+## Repository Contents
 
-- `Insurance Portfolio Analysis.pbix` – Power BI dashboard file.
-- `InsuranceData.csv` – Dataset used for analysis.
-- `README.md` – Project documentation.
+| File | Description |
+|---|---|
+| `Insurance Data Analysis.pbix` | Power BI dashboard file |
+| `InsuranceData.csv` | Dataset used for analysis |
+| `insurance-overview.png` | Insurance Overview screenshot |
+| `policy-details.png` | Policy Details screenshot |
+| `README.md` | Project documentation |
 
 ## Project Purpose
 
-This project demonstrates practical skills in data preparation, exploratory business analysis, KPI reporting, and interactive dashboard development.
+This project demonstrates practical skills in data preparation, business analysis, KPI reporting, and interactive dashboard development.
 
-It is part of my portfolio showcasing my work towards Data Analyst, BI Analyst and Data Science roles.
+It is part of my professional portfolio showcasing my capabilities and continuous learning towards **Data Analyst, BI Analyst and Data Science roles**.
 
 ---
 
 **Created by:** Pranil Jadhav
 
-**GitHub:** [praniljadhav-data](https://github.com/praniljadhav-data)
+**GitHub Profile:** [praniljadhav-data](https://github.com/praniljadhav-data)
