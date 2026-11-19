@@ -1,12 +1,12 @@
-# Insurance Portfolio Analysis & Claims Dashboard | Power BI
+Insurance Portfolio Analysis & Claims Dashboard | Power BI
 
-## Project Overview
+Project Overview
 
-This project presents an interactive **Insurance Portfolio Analysis Dashboard** developed using Microsoft Power BI for PRISM INSURANCE PVT. LTD.
+This project presents an interactive Insurance Portfolio Analysis Dashboard developed using Microsoft Power BI for PRISM INSURANCE PVT. LTD.
 
 The dashboard provides insights into insurance policies, customer demographics, premium collections, coverage amounts, and claim performance through interactive visualizations and detailed policy-level reporting.
 
-## Business Objectives
+Business Objectives
 
 - Monitor total premium collections and coverage amounts.
 - Analyze insurance claims and their status.
@@ -15,34 +15,33 @@ The dashboard provides insights into insurance policies, customer demographics, 
 - Analyze active and inactive insurance policies.
 - Provide detailed policy-level information for further analysis.
 
-## Dataset Overview
+Dataset Overview
 
 The project uses an insurance dataset containing policy, customer, premium, coverage, and claim-related information.
 
-| Dataset Attribute | Details |
-|---|---:|
-| Total Records | 10,000 |
-| Total Columns | 13 |
-| Unique Policy Numbers | 10,000 |
-| Unique Customer IDs | 10,000 |
-| Unique Claim Numbers | 10,000 |
+Dataset Attribute| Details
+Total Records| 10,000
+Total Columns| 13
+Unique Policy Numbers| 10,000
+Unique Customer IDs| 10,000
+Unique Claim Numbers| 10,000
 
-## Key Performance Indicators
+Key Performance Indicators
 
-| KPI | Value |
-|---|---:|
-| Total Premium Amount | 5,974,060.08 |
-| Total Coverage Amount | 600,331,176.46 |
-| Total Claim Amount | 16,904,295.27 |
-| Total Policies | 10,000 |
+KPI| Value
+Total Premium Amount| 5,974,060.08
+Total Coverage Amount| 600,331,176.46
+Total Claim Amount| 16,904,295.27
+Total Policies| 10,000
 
-## Dashboard Preview
+Dashboard Preview
 
-### 1. Insurance Overview
+1. Insurance Overview
 
 The overview page provides a consolidated view of insurance portfolio performance.
 
-**Key insights and visualizations:**
+Key insights and visualizations:
+
 - Total premium, coverage and claim amount KPIs.
 - Customer gender distribution.
 - Claim status analysis.
@@ -51,9 +50,9 @@ The overview page provides a consolidated view of insurance portfolio performanc
 - Active vs. inactive policy distribution.
 - Coverage analysis by policy type and claim status.
 
-![Insurance Overview Dashboard](insurance-overview.png)
+"Insurance Overview Dashboard" (insurance-overview.png)
 
-### 2. Policy Details
+2. Policy Details
 
 The policy details page provides a detailed view of individual insurance records, including:
 
@@ -66,20 +65,21 @@ The policy details page provides a detailed view of individual insurance records
 - Policy Start and End Dates
 - Claim Status
 
-![Policy Details Dashboard](policy-details.png)
+"Policy Details Dashboard" (policy-details.png)
 
-## Data Preparation & Cleaning
+Data Preparation & Cleaning
 
 Data preparation was performed using Power Query.
 
 Key steps included:
+
 - Identifying and removing exact duplicate records.
 - Validating financial KPI totals.
 - Reviewing missing values in claim-related fields.
 - Verifying record counts and policy identifiers.
 - Preparing the dataset for interactive analysis.
 
-## Tools & Technologies
+Tools & Technologies
 
 - Microsoft Power BI
 - Power Query
@@ -89,24 +89,23 @@ Key steps included:
 - Data Visualization
 - Interactive Dashboard Development
 
-## Repository Contents
+Repository Contents
 
-| File | Description |
-|---|---|
-| `Insurance Data Analysis.pbix` | Power BI dashboard file |
-| `InsuranceData.csv` | Dataset used for analysis |
-| `insurance-overview.png` | Insurance Overview screenshot |
-| `policy-details.png` | Policy Details screenshot |
-| `README.md` | Project documentation |
+File| Description
+"Insurance Data Analysis(1).pbix"| Power BI dashboard file
+"InsuranceData(1).csv"| Dataset used for analysis
+"insurance-overview.png"| Insurance Overview screenshot
+"policy-details.png"| Policy Details screenshot
+"README.md"| Project documentation
 
-## Project Purpose
+Project Purpose
 
 This project demonstrates practical skills in data preparation, business analysis, KPI reporting, and interactive dashboard development.
 
-It is part of my professional portfolio showcasing my capabilities and continuous learning towards **Data Analyst, BI Analyst and Data Science roles**.
+It is part of my professional portfolio showcasing my capabilities and continuous learning towards Data Analyst, BI Analyst and Data Science roles.
 
 ---
 
-**Created by:** Pranil Jadhav
+Created by: Pranil Jadhav
 
-**GitHub Profile:** [praniljadhav-data](https://github.com/praniljadhav-data)
+GitHub Profile: "praniljadhav-data" (https://github.com/praniljadhav)
